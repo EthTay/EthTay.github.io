@@ -2232,6 +2232,7 @@ input, select, textarea {
 		#intro p.style1 {
 			font-size: 1.5em;
 			letter-spacing: 0.075em;
+			
 		}
 
 		#intro p.style2 {
@@ -2270,12 +2271,14 @@ input, select, textarea {
 		padding-bottom: 5em;
 	}
 
+	
+
 	#features ul.actions {
 		margin-top: 5em;
 	}
 	
 	#features p.style1 {
-		color: #fefefe;		
+		color: #ffffff;	
 	}
 
 /* Highlights */
@@ -3010,3 +3013,21 @@ input, select, textarea {
 						}
 
 	}
+
+
+	body {
+		padding: 20px;
+	}
+	
+	input {
+		margin-bottom: 5px;
+		padding: 2px 3px;
+		width: 209px;
+	}
+	
+	td {
+		padding: 4px;
+		border: 1px #CCC solid;
+		width: 100px;
+	}
+	
