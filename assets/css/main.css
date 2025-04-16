@@ -2032,6 +2032,10 @@ input, select, textarea {
 				color: #fff;
 			}
 
+			.wrapper.style2.style1.p{
+				color: #fff;
+			}
+
 		.wrapper.style3 {
 			background: #f3f3f3 url("images/overlay.png");
 		}
@@ -2232,7 +2236,6 @@ input, select, textarea {
 		#intro p.style1 {
 			font-size: 1.5em;
 			letter-spacing: 0.075em;
-			
 		}
 
 		#intro p.style2 {
@@ -2277,8 +2280,10 @@ input, select, textarea {
 		margin-top: 5em;
 	}
 	
-	#features p.style1 {
-		color: #ffffff;	
+	#features .style1  p{
+		font-size: 1.25em;
+		text-align: center;
+		color: rgba(255,255,255,1)
 	}
 
 /* Highlights */
@@ -2413,6 +2418,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.25);
 			padding: 0.75em 2em;
 			font-size: 0.9em;
+			
 		}
 
 			#copyright ul li {
@@ -2422,6 +2428,7 @@ input, select, textarea {
         		text-align: center;
 				border-left: solid 1px #333;
 				border-left-color: rgba(255, 255, 255, 0.05);
+
 			}
 
 				#copyright ul li:first-child {
@@ -3013,21 +3020,3 @@ input, select, textarea {
 						}
 
 	}
-
-
-	body {
-		padding: 20px;
-	}
-	
-	input {
-		margin-bottom: 5px;
-		padding: 2px 3px;
-		width: 209px;
-	}
-	
-	td {
-		padding: 4px;
-		border: 1px #CCC solid;
-		width: 100px;
-	}
-	
