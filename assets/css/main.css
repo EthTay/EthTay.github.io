@@ -2259,7 +2259,7 @@ input, select, textarea {
 			font-size: 1.25em;
 			width: 48em;
 			margin: auto;
-			margin-top: -2em;
+			margin-top: -1em;
 
 		}
 
@@ -2271,7 +2271,7 @@ input, select, textarea {
 /* Features */
 
 	#features header.style1 {
-		padding-bottom: 5em;
+		padding-bottom: 2em;
 	}
 
 	
@@ -2283,6 +2283,8 @@ input, select, textarea {
 	#features .style1  p{
 		font-size: 1.25em;
 		text-align: center;
+		margin: auto;
+		margin-top: -1em;
 		color: rgba(255,255,255,1)
 	}
 
