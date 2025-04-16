@@ -2286,6 +2286,12 @@ input, select, textarea {
 		color: rgba(255,255,255,1)
 	}
 
+	#features .style1 p a{
+		color: #0000EE;
+		text-decoration: none;
+	}
+
+
 /* Highlights */
 
 	#highlights .highlight {
