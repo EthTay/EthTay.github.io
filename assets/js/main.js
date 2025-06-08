@@ -95,29 +95,37 @@ function debounce(func, wait, immediate) {
   };
 };
 
-//<script>
 function myFunction() {
-  // Declare variables
-  var input, filter, table, tr, name,uni,position, i, txtValue;
+  var input, filter, table, tr, name,uni,position,country, i,txtvalue2,txtvalue3,txtvalue4, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
-
-  // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
     name = tr[i].getElementsByTagName("td")[0];
-    uni = tr[i].getElementsByTagName("td")[1];
-    // position = tr[i].getElementsByTagName("td")[0];
-    if ((name) || (uni)) {
+    position = tr[i].getElementsByTagName("td")[1];
+    uni = tr[i].getElementsByTagName("td")[2];
+    country = tr[i].getElementsByTagName("td")[3];
+    if (name) {
       txtValue = name.textContent || name.innerText;
-      txtValue = uni.textContent || uni.innerText;
+      txtvalue2 = uni.textContent || uni.innterText;
+      txtvalue3 = position.textContent || position.innterText;
+      txtvalue4 = country.textContent || country.innterText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      }
+      else if (txtvalue2.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } 
+			else if (txtvalue3.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      }
+			else if (txtvalue4.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";
       }
-    }
+    }       
   }
 }
-// </script>
+
