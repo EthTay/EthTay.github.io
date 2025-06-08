@@ -98,7 +98,7 @@ function debounce(func, wait, immediate) {
 //<script>
 function myFunction() {
   // Declare variables
-  var input, filter, table, tr, name,,uni,position, i, txtValue;
+  var input, filter, table, tr, name,uni,position, i, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
@@ -110,7 +110,8 @@ function myFunction() {
     uni = tr[i].getElementsByTagName("td")[1];
     // position = tr[i].getElementsByTagName("td")[0];
     if ((name) || (uni)) {
-      txtValue = name.textContent || td.innerText;
+      txtValue = name.textContent || name.innerText;
+      txtValue = uni.textContent || uni.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
       } else {
