@@ -98,7 +98,7 @@ function debounce(func, wait, immediate) {
 //<script>
 function myFunction() {
   // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
+  var input, filter, table, tr, name,,uni,position, i, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
@@ -106,9 +106,11 @@ function myFunction() {
 
   // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
+    name = tr[i].getElementsByTagName("td")[0];
+    uni = tr[i].getElementsByTagName("td")[1];
+    // position = tr[i].getElementsByTagName("td")[0];
+    if ((name) || (uni)) {
+      txtValue = name.textContent || td.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
       } else {
