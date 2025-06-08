@@ -6,10 +6,10 @@
 -->
 <html>
 	<head>
-		<title>No Sidebar - Escape Velocity by HTML5 UP</title>
+		<title>EDGE Simulation Suite</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/physics.css" />
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
@@ -19,89 +19,159 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<h1><a href="index.html">EDGE</a></h1>
+							<h1><a href="/">EDGE</a></h1>
 							<p><b>Engineering Dwarfs at Galaxy Fromation's Edge</b></p>
 						</div>
 
 					<!-- Nav -->
-						<nav id="nav">
+					<nav id="nav">
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li  class="current"><a href="/physics/">Physics</a>
 							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-								<!--<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem ipsum</a></li>
-										<li><a href="#">Magna veroeros</a></li>
-										<li><a href="#">Etiam nisl</a></li>
-										<li>
-											<a href="#">Sed consequat</a>
-											<ul>
-												<li><a href="#">Lorem dolor</a></li>
-												<li><a href="#">Amet consequat</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Sed feugiat</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Nisl tempus</a></li>
-									</ul>
-								</li>-->
-								<li><a href="physics.html">Physics</a>
-								<ul>
-								  <li><a href="EDGE2-physics.html">EDGE1</a></li>
-								  <li><a href="EDGE2-physics.html">EDGE2</a></li>
-								</ul>
-								
-								
-								</li>
-								<li><a href="collaborators.html">Collaborators</a></li>
-								<li><a href="press.html">Press Releases</a></li>
-								<li><a href="media.html">Media</a>
-								<ul>
-								  <li><a href="Movies.html">Movies</a></li>
-								  <li><a href="Pictures.html">Pictures</a></li>
-								
-								</ul></li>
-								<li><a href="publications.html">Publications</a></li>
-								<li><a href="data-access.html">Data Access</a></li>
-
-								<!--<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>-->
+								<li><a href="EDGE1-physics">EDGE1</a></li>
+								<li><a href="EDGE2-physics">EDGE2</a></li>
 							</ul>
-						</nav>
-
+							</li>
+							<li><a href="/collaborators/">Collaborators</a></li>
+							<li><a href="/press/">Press Releases</a></li>
+							<li><a href="/media/">Media</a>
+							<ul>
+								<li><a href="/media/Movies/">Movies</a></li>
+								<li><a href="/media/Pictures/">Pictures</a></li>								
+							</ul></li>
+							<li><a href="/publications/">Publications</a></li>
+							<li><a href="/data-access/">Data Access</a></li>
+						</ul>
+					</nav>
 				</section>
 
 			<!-- Main -->
-				<div id="main" class="wrapper style2">
-					<div class="title">No Sidebar</div>
-					<div class="container">
-
-						<!-- Content -->
-							<div id="content">
-								<div class="title">What is EDGE?</div>
-								<div class="container">
-									<p class="style3">
-									EDGE is a project to numerically simulate the very smallest galaxies in the Universe. It is an international collaboration spear headeded by the University of Surrey (PI Prof. Justin Read), Durham University and the University of Lund. 
-									The simulations are set up using the new <a href="https://github.com/pynbody/genetIC">GenetIC</a> initial conditions generator and run using the <a href="https://www.ics.uzh.ch/~teyssier/ramses/RAMSES.html">RAMSES</a> code. 
-									Analysis of simulation outputs is performed using the <a href="http://popia.ft.uam.es/AHF/">AHF</a> halo finder in addition to both <a href="https://pynbody.github.io/">PyNbody and Tangoes</a> analysis tools.
-									The EDGE simulations  are run on the <a href="https://dirac.ac.uk/">DiRAC High Performance Computing Facility</a> hosted across the UK and has been awarded 128.35 MCPU hours apart of project codes dp101, dp191, dp324
-									<br/>
-									<br/>
-									While EDGE is an international effort, we would not be here without the hard work of all who put in their time to work on these simulations. For a full list of amazing people apart of EDGE   please see the <a href="collaborators">Collaborators page</a>.
-									</p>
-									<ul class="actions">
-										<li><a href="/collaborators/" class="button style3 large">Collaborators</a></li>
-									</ul>
-								</div>
-			
+			<div id="intro" class="wrapper style1">
+				<div class="container">
+					<div class="title">EDGE Physics</div>
+					<!-- Content -->
+						<!-- <div id="content">
+							<div class="container">
+								<p class="style3">
+								</br>
+									As the two EDGE suites differ in physics a handy comparison  
+								<br/>
+								<br/>
+								</p>
 							</div>
+						</div> -->
 
-					</div>
+									<!-- Font Awesome Icon Library -->
+									<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+									<table>
+										<tr>
+											<th style="width:50%"></th>
+											<th>EDGE-1</th>
+											<th>EDGE-2</th>
+										</tr>
+										<tr>
+											<td>Introduction Paper</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.1656A/abstract">Agertz et al 2020</a></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250303813R/abstract">Rey et al 2025</a></td>
+										</tr>
+										<tr>
+											<td></br>Code Base</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2002A&A...385..337T/abstract">Teyssier 2002</a></br></br><a href="https://bitbucket.org/rteyssie/ramses/src/master/">RAMSES</a></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.2188R/abstract">Rosdahl et al 2013</a></br></br><a href="https://bitbucket.org/rteyssie/ramses/src/master/">RAMSES-RT</a></td>
+										</tr>
+										<tr>
+											<td>Resolution</br>(DM/Gas/Stellar)</td>
+											<td>118/3pc/300 Msol</td>
+											<td>953/3pc/300 Msol</td>
+										</tr>
+										<tr>
+											<td>Box Size</td>
+											<td>50 Mpc</td>
+											<td>100 Mpc</td>
+										</tr>
+										<tr>
+											<td>Halo Mass Range</td>
+											<td>1.2×10<sup>9</sup> - 7.5×10<sup>9</sup></td>
+											<td>1.2×10<sup>9</sup> - 1.1×10<sup>10</sup></td>
+										</tr>
+										<tr>
+											<td>Stellar Mass Range</td>
+											<td>4.5×10<sup>4</sup> - 1.1×10<sup>7</sup></td>
+											<td>1.5×10<sup>4</sup> - 4.2×10<sup>7</sup></td>
+										</tr>
+										<tr>
+											<td>UVB Background</td>
+											<td>A Modified version of</br><a href="https://ui.adsabs.harvard.edu/abs/1996ApJ...461...20H/abstract">Haardt & Madau 1996</a></td>
+											<td></br><a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.1614F/abstract">Faucher-Giguère 2020</a></td>
+										</tr>
+										<tr>
+											<td></br>Stellar Feedback</td>
+											<td>CCSNe, SNe-Ia, fast winds from massive stars, slow winds from AGB stars, and radiative feedback</td>
+											<td>CCSNe, SNe-Ia, fast winds from massive stars, and slow winds from AGB stars</td>
+										</tr>
+										<tr>
+											<td></br>Type-Ia Supernova Model</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/1996A%26A...315..105R/abstract">Raiteri et al 1996</a></br>Yields from:</br><a href="https://ui.adsabs.harvard.edu/abs/1986A%26A...158...17T/abstract">Thielemann et al 1986</A></td>
+												<td><a href="https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.3282M/abstract">Maoz et al 2012</a></br>Yields from:</br><a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.429.1156S/abstract">Seitenzahl et al 2013</a></td>
+										</tr>
+										<tr>
+											<td></br>Yields</td>
+											<td></br><a href="https://ui.adsabs.harvard.edu/abs/2007PhR...442..269W/abstract">Woosley & Heger 2007</a></td>
+											<td>NUGrid Yields:</br><a href="https://ui.adsabs.harvard.edu/abs/2016ApJS..225...24P/abstract">Pignatari et al 2016</a></br><a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.480..538R/abstract">Ritter et al 2018</a></td>
+										</tr>
+										<tr>
+											<td>Tracked Elements</td>
+											<td>Fe, O</td>
+											<td>C, N, O, Mg, Al, Si, Fe, Eu</td>
+										</tr>
+										<tr>
+											<td>Initial Mass Function</td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2003PASP..115..763C/abstract">Chabrier 2003</a></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2001MNRAS.322..231K/abstract">Kroupa 2001</a></td>
+										</tr>
+										<tr>
+											<td></br>Initial Conditions</td>
+											<td><a href="https://github.com/pynbody/genetIC">GenetIC</a></br></br><a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..252...28S/abstract">Stopyra et al 2021a</a></td>
+											<td><a href="https://github.com/pynbody/genetIC">GenetIC</a></br></br><a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..252...28S/abstract">Stopyra et al 2021a</a></td>
+										</tr>
+										<tr>
+											<td></br>Cooling</td>
+											<td>Equilibrium cooling</br></br><a href="https://ui.adsabs.harvard.edu/abs/2004A%26A...416..875C/abstract">Courty & Alimi 2004</a></td>
+											<td>Non-equilibrium primordial and molecular chemistry</br><a href="https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.2188R/abstract">Rosdahl et al 2013</a></br><a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.3206N/abstract">Nickerson et al 2018</a></td>
+										</tr>
+										<tr>
+											<td>GenetICally Modified</br>Initial Conditions</td>
+											<td>Early/Late</br>Higher Final Mass</br></td>
+											<td>Early/Late</br>Higher Final Mass</br></td>
+										</tr>
+										<tr>
+											<td>Fully Cosmological</td>
+											<td><i class="fa fa-check"></i></td>
+											<td><i class="fa fa-check"></i></td>
+										</tr>
+										<tr>
+											<td>Radiative Transfer</td>
+											<td><i class="fa fa-remove"></i></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.1656A/abstract">Agertz et al 2020</a></td>
+										</tr>
+										<tr>
+											<td>High Cadence Tracer Particles</td>
+											<td><i class="fa fa-remove"></i></td>
+											<td><a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A..96C/abstract">Cadiou et al 2019</a></td>
+										</tr>
+										<tr>
+											<td>Population III Stars</td>
+											<td><i class="fa fa-remove"></i></td>
+											<td><i class="fa fa-remove"></i></td>
+										</tr>
+									</table> 
+
 				</div>
+			</div>
 
-			<!-- Highlights -->
+	<!-- Highlights -->
 				<section id="highlights" class="wrapper style3">
 					<div class="title">The Endorsements</div>
 					<div class="container">
@@ -141,96 +211,15 @@
 				</section>
 
 			<!-- Footer -->
-				<section id="footer" class="wrapper">
-					<div class="title">The Rest Of It</div>
-					<div class="container">
-						<header class="style1">
-							<h2>Ipsum sapien elementum portitor?</h2>
-							<p>
-								Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-								Nam pharetra laoreet imperdiet volutpat etiam feugiat.
-							</p>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-
-								<!-- Contact Form -->
-									<section>
-										<form method="post" action="#">
-											<div class="row gtr-50">
-												<div class="col-6 col-12-small">
-													<input type="text" name="name" id="contact-name" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="text" name="email" id="contact-email" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-							</div>
-							<div class="col-6 col-12-medium">
-
-								<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-home">Mailing Address</h3>
-													<p>
-														Untitled Corp<br />
-														1234 Somewhere Rd<br />
-														Nashville, TN 00000
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-comment">Social</h3>
-													<p>
-														<a href="#">@untitled-corp</a><br />
-														<a href="#">linkedin.com/untitled</a><br />
-														<a href="#">facebook.com/untitled</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-envelope">Email</h3>
-													<p>
-														<a href="#">info@untitled.tld</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-phone">Phone</h3>
-													<p>
-														(000) 555-0000
-													</p>
-												</section>
-											</div>
-										</div>
-									</section>
-
-							</div>
-						</div>
-						<div id="copyright">
-							<ul>
-								<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>
+			<section id="footer" class="wrapper">						
+				<div id="copyright">
+						 <img src="images/dirac_logo.png" alt=""  width="150"/>
+						<ul>
+						<li>&copy; EDGE 2025.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				 <img src="images/stfc_logo.png" alt="" width="300"/>
+				</div>
+			</section>
 
 		</div>
 
