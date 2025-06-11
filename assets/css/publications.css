@@ -2054,8 +2054,20 @@ tr:nth-child(even) {
 				color: #000;
 			}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b {
+			.wrapper.style1 h1, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b {
 				color: #000;
+			}
+
+			.wrapper.style1 h2{
+				color:#000000;
+				font-size: xx-large;
+			
+			}
+
+			.wrapper.style1 h3{
+				color:#0000EE;
+				font-size:medium;
+
 			}
 
 			.wrapper.style1 a{
