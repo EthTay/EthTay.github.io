@@ -96,7 +96,7 @@ function debounce(func, wait, immediate) {
 };
 
 function myFunction() {
-  var input, filter, table, tr, title,year,first_author,key_words, i,txtvalue2,txtvalue3,txtvalue4,physics,txtvalue5, txtValue;
+  var input, filter, table, tr, title,coauthors,first_author,year, i,txtvalue2,txtvalue3,txtvalue4,physics,txtvalue5, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
@@ -104,14 +104,14 @@ function myFunction() {
   for (i = 0; i < tr.length; i++) {
     title = tr[i].getElementsByTagName("td")[0];
     first_author = tr[i].getElementsByTagName("td")[1];
+    coauthors = tr[i].getElementsByTagName("td")[2];
     year = tr[i].getElementsByTagName("td")[3];
-    key_words = tr[i].getElementsByTagName("td")[4];
-    physics = tr[i].getElementsByTagName("td")[5];
+    physics = tr[i].getElementsByTagName("td")[4];
     if (title) {
       txtValue = title.textContent || title.innerText;
-      txtvalue2 = year.textContent || year.innterText;
+      txtvalue2 = coauthors.textContent || coauthors.innterText;
       txtvalue3 = first_author.textContent || first_author.innterText;
-      txtvalue4 = key_words.textContent || key_words.innterText;
+      txtvalue4 = year.textContent || year.innterText;
       txtvalue5 = physics.textContent || physics.innterText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
